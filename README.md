@@ -2,3 +2,4 @@
 # stone-paper-scissors-in-js
 # stone-paper-scissors
 # stone-paper-scissors
+# calculator
