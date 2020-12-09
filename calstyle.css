@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+.table{
+    border: groove 8px rgba(255, 145, 0, 0.527);
+    border-radius: 15px;
+    padding: auto;
+}
+body {
+    /* background-image:url("cal1.jpg");
+    background-blend-mode: screen; */
+    background-color: #f3212c3d;
+}
+.calculator{
+    display: inline-block;
+    border-radius: 10px;
+}
+.title{
+    background: none;
+    background-color: none;
+    display:inline;
+  font-size: 70px;
+  font-family: 'Sacramento',cursive,Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-style: oblique;
+  font: outline;
+  transition:cubic-bezier(0.23, 1, 0.320, 1);
+  background: linear-gradient(to right, #2195f3e7, #f73a2dd0,rgb(117, 248, 117));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}  
+.row{
+    padding: 100px 150px 200px 300px;   
+    width: 100%;
+}
+#result{
+    padding: 15px 105px 15px 200px;
+    background:linear-gradient(35deg,rgba(182, 241, 241, 0.61),rgba(165, 250, 165, 0.815),rgba(192, 82, 82, 0.692));
+    font-size: larger;
+    font-weight: 500;
+}
+#left{
+    background:linear-gradient(35deg,rgba(182, 241, 241, 0.61),rgba(165, 250, 165, 0.815),rgba(192, 82, 82, 0.692));
+   
+}
+#clear{
+    margin: 4px;
+    padding: 10px 10px 10px 10px;
+    background:rgba(136, 138, 136, 0.747);
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 500;
+}
+#button1{
+    margin: 4px;
+    padding: 10px 10px 10px 10px;
+    background:rgba(135, 138, 135, 0.808);
+    text-align: center;
+    justify-content: center;
+    border-style: groove ;
+}
+[type='button'] {
+    font-size: larger;
+    font-weight: 500;
+        border-radius: 25px;
+        margin: 2px;
+        padding: 10px 10px 10px 10px;
+        background:rgba(138, 145, 138, 0.945);
+        text-align: center;
+        justify-content: center;
+        border-style: groove;
+    
+    
+}
+#clear:active{
+    position: relative;
+    cursor: pointer;
+    transform: scale(1.2);
+    border-color:orange;
+    background-color: red;
+}
+
+.buttons{
+    font-weight: bold;
+    font-size: larger;
+    width: 100%;
+    margin: 0px;
+    padding: 15px 12px 15px 12px;
+    background:linear-gradient(35deg,rgba(182, 241, 241, 0.61),rgba(165, 250, 165, 0.815),rgba(192, 82, 82, 0.692));
+    text-align: center;
+    justify-content: center;
+}
+[type='button']:hover{
+    /* display: inline;
+    position: relative; */
+    cursor: pointer;
+    transform: scale(1.2);
+    border-color: yellow;
+}
+[type='button']:focus{
+    outline: none;
+}
+[type='button']:active{
+    position: relative;
+    cursor: pointer;
+    transform: scale(1.2);
+    border-color:orange;
+    background-color: red;
+}   
+/* [type='button']:visited{
+    position: relative;
+    cursor: pointer;
+    transform: scale(1.2);
+    border-color:green;
+    background-color:black;
+} */

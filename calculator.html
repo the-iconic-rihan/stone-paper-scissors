@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple calculator </title>
+    <link rel="stylesheet" href="calstyle.css">
+    <link rel="stylesheet" href="#font">
+    <!-- <style>
+     
+    </style> -->
+</head>
+<body>
+    <center>
+        <!-- Creating table -->
+        <div class="title">Simple calculator</div>
+        <table class="table">
+            <div class="rows">
+                <tr>
+                    <div id="calculator">
+                        <td  colspan="3"><input type="text" id="result" placeholder="displaying result"></td>
+                        <!-- clr() will clear the result screen  -->
+                        <td id="left"><input type="button" class="operator" id="clear" value="c" onclick="clr()"></td>
+                    </div>
+                </tr>
+                <tr class="buttons">
+                    <td><input type="button"  class="number" id="button1" value="(" onclick="dis('(')" ></td>
+                    <td><input type="button" class="number" id="button2" value=")" onclick="dis(')')" ></td>
+                    <td><input type="button" class="number" id="button3" value="["onclick="dis('[')" ></td>
+                    <td><input type="button"  class="operator" value="]" onclick="dis(']')"></td>
+                </tr>
+                <tr class="buttons">
+                    <td><input type="button"  class="number" id="button1" value="1" onclick="dis('1')" ></td>
+                    <td><input type="button" class="number" id="button2" value="2" onclick="dis('2')" ></td>
+                    <td><input type="button" class="number" id="button3" value="3"onclick="dis('3')" ></td>
+                    <td><input type="button"  class="operator" value="/" onclick="dis('/')"></td>
+                </tr>
+                <tr class="buttons">
+                    <td><input type="button" class="number" id="button5" value="4"onclick="dis('4')" ></td>
+                    <td><input type="button" class="number" id="button6" value="5"onclick="dis('5')" ></td>
+                    <td><input type="button" class="number" id="button7" value="6"onclick="dis('6')" ></td>
+                    <td><input type="button" class="operator" value="-" onclick="dis('-')" ></td>
+                    </tr>
+                    <tr class="buttons">
+                        <td><input type="button" class="number" id="button8" value="7"  onclick="dis('7')"></td>
+                    <td><input type="button" class="number" id="button9" value="8" onclick="dis('8')"></td>
+                    <td><input type="button" class="number" id="button10" value="9" onclick="dis('9')"></td>
+                    <td><input type="button" class="operator" value="+" onclick="dis('+')" ></td>
+                </tr>
+                <tr class="buttons">
+                    <td><input type="button" class="number" id="button12" value="." onclick="dis('.')"></td>
+                    <td><input type="button" class="number" id="button13" value="0" onclick="dis('0')"></td>
+                    <td><input type="button" class="number" id="button14" value="=" onclick="solve()" ></td>
+                    <td><input type="button" class="operator" value="*" onclick="dis('*')"></td>
+                </tr>
+            </div>
+        </table>
+    </center>
+</body>
+<script src="cal.js"></script>
+</html>
